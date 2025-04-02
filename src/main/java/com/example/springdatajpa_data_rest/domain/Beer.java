@@ -24,6 +24,7 @@ public class Beer {
 
     @Version
     private Long version;
+    // version property is shown as ETag in the response header, but not in the response body
 
     private String beerName;
     private String upc;
